@@ -1,0 +1,20 @@
+PODS:
+  - IQKeyboardManager (4.0.5)
+  - Masonry (1.0.1)
+  - YYCategories (1.0.3):
+    - YYCategories/no-arc (= 1.0.3)
+  - YYCategories/no-arc (1.0.3)
+
+DEPENDENCIES:
+  - IQKeyboardManager (~> 4.0.5)
+  - Masonry (~> 1.0.1)
+  - YYCategories (~> 1.0.3)
+
+SPEC CHECKSUMS:
+  IQKeyboardManager: 50b62c0603308968256f8208886e206c1dcce607
+  Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
+  YYCategories: 0fd4d9eb0994d8d0e355beb4081c8f7202a82b7b
+
+PODFILE CHECKSUM: a16fbff3c01d0fb382f1f49c313a59a6630db920
+
+COCOAPODS: 1.0.1

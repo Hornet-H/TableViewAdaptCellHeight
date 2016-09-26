@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0013FD006EF44A3790FB4D3D /* libPods-TableView的cell自适应行高详解.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AB65AD93D1566329ED5534B /* libPods-TableView的cell自适应行高详解.a */; };
+		5AEAD8633FD4020E92CCB265 /* libPods-TableView的cell自适应行高详解UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C595C088EF8C5500D426D6C /* libPods-TableView的cell自适应行高详解UITests.a */; };
+		878264031D990BFA00A6A70B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 878264021D990BFA00A6A70B /* main.m */; };
+		878264061D990BFA00A6A70B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 878264051D990BFA00A6A70B /* AppDelegate.m */; };
+		878264091D990BFA00A6A70B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 878264081D990BFA00A6A70B /* ViewController.m */; };
+		8782640C1D990BFA00A6A70B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8782640A1D990BFA00A6A70B /* Main.storyboard */; };
+		8782640E1D990BFA00A6A70B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8782640D1D990BFA00A6A70B /* Assets.xcassets */; };
+		878264111D990BFA00A6A70B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8782640F1D990BFA00A6A70B /* LaunchScreen.storyboard */; };
+		8782641C1D990BFA00A6A70B /* TableView_cell_______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8782641B1D990BFA00A6A70B /* TableView_cell_______Tests.m */; };
+		878264271D990BFA00A6A70B /* TableView_cell_______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 878264261D990BFA00A6A70B /* TableView_cell_______UITests.m */; };
+		EDDACECF2F6A97DC8C5F3E43 /* libPods-TableView的cell自适应行高详解Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C9A41B0AB0EE5BFB49D26B0 /* libPods-TableView的cell自适应行高详解Tests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		878264181D990BFA00A6A70B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 878263F61D990BFA00A6A70B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 878263FD1D990BFA00A6A70B;
+			remoteInfo = "TableView的cell自适应行高详解";
+		};
+		878264231D990BFA00A6A70B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 878263F61D990BFA00A6A70B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 878263FD1D990BFA00A6A70B;
+			remoteInfo = "TableView的cell自适应行高详解";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AB65AD93D1566329ED5534B /* libPods-TableView的cell自适应行高详解.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TableView的cell自适应行高详解.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FB7B17B2DB6FF378BD4E3E5 /* Pods-TableView的cell自适应行高详解UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableView的cell自适应行高详解UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TableView的cell自适应行高详解UITests/Pods-TableView的cell自适应行高详解UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		450D9B5C7FDB369D8F7D4FEC /* Pods-TableView的cell自适应行高详解Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableView的cell自适应行高详解Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TableView的cell自适应行高详解Tests/Pods-TableView的cell自适应行高详解Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C07F396EFB47C5EAD04704F /* Pods-TableView的cell自适应行高详解Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableView的cell自适应行高详解Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TableView的cell自适应行高详解Tests/Pods-TableView的cell自适应行高详解Tests.release.xcconfig"; sourceTree = "<group>"; };
+		4C595C088EF8C5500D426D6C /* libPods-TableView的cell自适应行高详解UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TableView的cell自适应行高详解UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		878263FE1D990BFA00A6A70B /* TableView的cell自适应行高详解.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TableView的cell自适应行高详解.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		878264021D990BFA00A6A70B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		878264041D990BFA00A6A70B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		878264051D990BFA00A6A70B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		878264071D990BFA00A6A70B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		878264081D990BFA00A6A70B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8782640B1D990BFA00A6A70B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8782640D1D990BFA00A6A70B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		878264101D990BFA00A6A70B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		878264121D990BFA00A6A70B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		878264171D990BFA00A6A70B /* TableView的cell自适应行高详解Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TableView的cell自适应行高详解Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8782641B1D990BFA00A6A70B /* TableView_cell_______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "TableView_cell_______Tests.m"; sourceTree = "<group>"; };
+		8782641D1D990BFA00A6A70B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		878264221D990BFA00A6A70B /* TableView的cell自适应行高详解UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TableView的cell自适应行高详解UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		878264261D990BFA00A6A70B /* TableView_cell_______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "TableView_cell_______UITests.m"; sourceTree = "<group>"; };
+		878264281D990BFA00A6A70B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C9A41B0AB0EE5BFB49D26B0 /* libPods-TableView的cell自适应行高详解Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TableView的cell自适应行高详解Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC476DC24292E99D4E87BBAE /* Pods-TableView的cell自适应行高详解.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableView的cell自适应行高详解.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TableView的cell自适应行高详解/Pods-TableView的cell自适应行高详解.debug.xcconfig"; sourceTree = "<group>"; };
+		B555D92E3C7B91274FF41E9D /* Pods-TableView的cell自适应行高详解UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableView的cell自适应行高详解UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TableView的cell自适应行高详解UITests/Pods-TableView的cell自适应行高详解UITests.release.xcconfig"; sourceTree = "<group>"; };
+		F5EA66E4597FC0287F5130DC /* Pods-TableView的cell自适应行高详解.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableView的cell自适应行高详解.release.xcconfig"; path = "Pods/Target Support Files/Pods-TableView的cell自适应行高详解/Pods-TableView的cell自适应行高详解.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		878263FB1D990BFA00A6A70B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0013FD006EF44A3790FB4D3D /* libPods-TableView的cell自适应行高详解.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		878264141D990BFA00A6A70B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDDACECF2F6A97DC8C5F3E43 /* libPods-TableView的cell自适应行高详解Tests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8782641F1D990BFA00A6A70B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AEAD8633FD4020E92CCB265 /* libPods-TableView的cell自适应行高详解UITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		878263F51D990BFA00A6A70B = {
+			isa = PBXGroup;
+			children = (
+				878264001D990BFA00A6A70B /* TableView的cell自适应行高详解 */,
+				8782641A1D990BFA00A6A70B /* TableView的cell自适应行高详解Tests */,
+				878264251D990BFA00A6A70B /* TableView的cell自适应行高详解UITests */,
+				878263FF1D990BFA00A6A70B /* Products */,
+				D339125F6752C04902226C02 /* Pods */,
+				AD1677B2DA159667584879D1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		878263FF1D990BFA00A6A70B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				878263FE1D990BFA00A6A70B /* TableView的cell自适应行高详解.app */,
+				878264171D990BFA00A6A70B /* TableView的cell自适应行高详解Tests.xctest */,
+				878264221D990BFA00A6A70B /* TableView的cell自适应行高详解UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		878264001D990BFA00A6A70B /* TableView的cell自适应行高详解 */ = {
+			isa = PBXGroup;
+			children = (
+				878264041D990BFA00A6A70B /* AppDelegate.h */,
+				878264051D990BFA00A6A70B /* AppDelegate.m */,
+				878264071D990BFA00A6A70B /* ViewController.h */,
+				878264081D990BFA00A6A70B /* ViewController.m */,
+				8782640A1D990BFA00A6A70B /* Main.storyboard */,
+				8782640D1D990BFA00A6A70B /* Assets.xcassets */,
+				8782640F1D990BFA00A6A70B /* LaunchScreen.storyboard */,
+				878264121D990BFA00A6A70B /* Info.plist */,
+				878264011D990BFA00A6A70B /* Supporting Files */,
+			);
+			path = "TableView的cell自适应行高详解";
+			sourceTree = "<group>";
+		};
+		878264011D990BFA00A6A70B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				878264021D990BFA00A6A70B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8782641A1D990BFA00A6A70B /* TableView的cell自适应行高详解Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8782641B1D990BFA00A6A70B /* TableView_cell_______Tests.m */,
+				8782641D1D990BFA00A6A70B /* Info.plist */,
+			);
+			path = "TableView的cell自适应行高详解Tests";
+			sourceTree = "<group>";
+		};
+		878264251D990BFA00A6A70B /* TableView的cell自适应行高详解UITests */ = {
+			isa = PBXGroup;
+			children = (
+				878264261D990BFA00A6A70B /* TableView_cell_______UITests.m */,
+				878264281D990BFA00A6A70B /* Info.plist */,
+			);
+			path = "TableView的cell自适应行高详解UITests";
+			sourceTree = "<group>";
+		};
+		AD1677B2DA159667584879D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AB65AD93D1566329ED5534B /* libPods-TableView的cell自适应行高详解.a */,
+				8C9A41B0AB0EE5BFB49D26B0 /* libPods-TableView的cell自适应行高详解Tests.a */,
+				4C595C088EF8C5500D426D6C /* libPods-TableView的cell自适应行高详解UITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D339125F6752C04902226C02 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC476DC24292E99D4E87BBAE /* Pods-TableView的cell自适应行高详解.debug.xcconfig */,
+				F5EA66E4597FC0287F5130DC /* Pods-TableView的cell自适应行高详解.release.xcconfig */,
+				450D9B5C7FDB369D8F7D4FEC /* Pods-TableView的cell自适应行高详解Tests.debug.xcconfig */,
+				4C07F396EFB47C5EAD04704F /* Pods-TableView的cell自适应行高详解Tests.release.xcconfig */,
+				2FB7B17B2DB6FF378BD4E3E5 /* Pods-TableView的cell自适应行高详解UITests.debug.xcconfig */,
+				B555D92E3C7B91274FF41E9D /* Pods-TableView的cell自适应行高详解UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		878263FD1D990BFA00A6A70B /* TableView的cell自适应行高详解 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8782642B1D990BFA00A6A70B /* Build configuration list for PBXNativeTarget "TableView的cell自适应行高详解" */;
+			buildPhases = (
+				73A96F97508CB8F0F5D0952F /* [CP] Check Pods Manifest.lock */,
+				878263FA1D990BFA00A6A70B /* Sources */,
+				878263FB1D990BFA00A6A70B /* Frameworks */,
+				878263FC1D990BFA00A6A70B /* Resources */,
+				ADD54667621E714E0FB09D32 /* [CP] Embed Pods Frameworks */,
+				49AF2A23CD4F67C5975B4DFD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TableView的cell自适应行高详解";
+			productName = "TableView的cell自适应行高详解";
+			productReference = 878263FE1D990BFA00A6A70B /* TableView的cell自适应行高详解.app */;
+			productType = "com.apple.product-type.application";
+		};
+		878264161D990BFA00A6A70B /* TableView的cell自适应行高详解Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8782642E1D990BFA00A6A70B /* Build configuration list for PBXNativeTarget "TableView的cell自适应行高详解Tests" */;
+			buildPhases = (
+				08F966DEC71A4B720227435C /* [CP] Check Pods Manifest.lock */,
+				878264131D990BFA00A6A70B /* Sources */,
+				878264141D990BFA00A6A70B /* Frameworks */,
+				878264151D990BFA00A6A70B /* Resources */,
+				F865EE7FEEA9B1FD876AB7EE /* [CP] Embed Pods Frameworks */,
+				FA9797722EF6124246D195CF /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				878264191D990BFA00A6A70B /* PBXTargetDependency */,
+			);
+			name = "TableView的cell自适应行高详解Tests";
+			productName = "TableView的cell自适应行高详解Tests";
+			productReference = 878264171D990BFA00A6A70B /* TableView的cell自适应行高详解Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		878264211D990BFA00A6A70B /* TableView的cell自适应行高详解UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 878264311D990BFA00A6A70B /* Build configuration list for PBXNativeTarget "TableView的cell自适应行高详解UITests" */;
+			buildPhases = (
+				3C6B21A5A4598302A5BD5B8C /* [CP] Check Pods Manifest.lock */,
+				8782641E1D990BFA00A6A70B /* Sources */,
+				8782641F1D990BFA00A6A70B /* Frameworks */,
+				878264201D990BFA00A6A70B /* Resources */,
+				858B59D19CACA1D9B5DE3432 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				878264241D990BFA00A6A70B /* PBXTargetDependency */,
+			);
+			name = "TableView的cell自适应行高详解UITests";
+			productName = "TableView的cell自适应行高详解UITests";
+			productReference = 878264221D990BFA00A6A70B /* TableView的cell自适应行高详解UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		878263F61D990BFA00A6A70B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = dahuangfeng;
+				TargetAttributes = {
+					878263FD1D990BFA00A6A70B = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					878264161D990BFA00A6A70B = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 878263FD1D990BFA00A6A70B;
+					};
+					878264211D990BFA00A6A70B = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 878263FD1D990BFA00A6A70B;
+					};
+				};
+			};
+			buildConfigurationList = 878263F91D990BFA00A6A70B /* Build configuration list for PBXProject "TableView的cell自适应行高详解" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 878263F51D990BFA00A6A70B;
+			productRefGroup = 878263FF1D990BFA00A6A70B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				878263FD1D990BFA00A6A70B /* TableView的cell自适应行高详解 */,
+				878264161D990BFA00A6A70B /* TableView的cell自适应行高详解Tests */,
+				878264211D990BFA00A6A70B /* TableView的cell自适应行高详解UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		878263FC1D990BFA00A6A70B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				878264111D990BFA00A6A70B /* LaunchScreen.storyboard in Resources */,
+				8782640E1D990BFA00A6A70B /* Assets.xcassets in Resources */,
+				8782640C1D990BFA00A6A70B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		878264151D990BFA00A6A70B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		878264201D990BFA00A6A70B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08F966DEC71A4B720227435C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3C6B21A5A4598302A5BD5B8C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		49AF2A23CD4F67C5975B4DFD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableView的cell自适应行高详解/Pods-TableView的cell自适应行高详解-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		73A96F97508CB8F0F5D0952F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		858B59D19CACA1D9B5DE3432 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableView的cell自适应行高详解UITests/Pods-TableView的cell自适应行高详解UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ADD54667621E714E0FB09D32 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableView的cell自适应行高详解/Pods-TableView的cell自适应行高详解-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F865EE7FEEA9B1FD876AB7EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableView的cell自适应行高详解Tests/Pods-TableView的cell自适应行高详解Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA9797722EF6124246D195CF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableView的cell自适应行高详解Tests/Pods-TableView的cell自适应行高详解Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		878263FA1D990BFA00A6A70B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				878264091D990BFA00A6A70B /* ViewController.m in Sources */,
+				878264061D990BFA00A6A70B /* AppDelegate.m in Sources */,
+				878264031D990BFA00A6A70B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		878264131D990BFA00A6A70B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8782641C1D990BFA00A6A70B /* TableView_cell_______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8782641E1D990BFA00A6A70B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				878264271D990BFA00A6A70B /* TableView_cell_______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		878264191D990BFA00A6A70B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 878263FD1D990BFA00A6A70B /* TableView的cell自适应行高详解 */;
+			targetProxy = 878264181D990BFA00A6A70B /* PBXContainerItemProxy */;
+		};
+		878264241D990BFA00A6A70B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 878263FD1D990BFA00A6A70B /* TableView的cell自适应行高详解 */;
+			targetProxy = 878264231D990BFA00A6A70B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8782640A1D990BFA00A6A70B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8782640B1D990BFA00A6A70B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8782640F1D990BFA00A6A70B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				878264101D990BFA00A6A70B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		878264291D990BFA00A6A70B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8782642A1D990BFA00A6A70B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8782642C1D990BFA00A6A70B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC476DC24292E99D4E87BBAE /* Pods-TableView的cell自适应行高详解.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TableView的cell自适应行高详解/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dahuangfeng.TableView-cell-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8782642D1D990BFA00A6A70B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5EA66E4597FC0287F5130DC /* Pods-TableView的cell自适应行高详解.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TableView的cell自适应行高详解/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dahuangfeng.TableView-cell-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8782642F1D990BFA00A6A70B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 450D9B5C7FDB369D8F7D4FEC /* Pods-TableView的cell自适应行高详解Tests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "TableView的cell自适应行高详解Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dahuangfeng.TableView-cell-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableView的cell自适应行高详解.app/TableView的cell自适应行高详解";
+			};
+			name = Debug;
+		};
+		878264301D990BFA00A6A70B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C07F396EFB47C5EAD04704F /* Pods-TableView的cell自适应行高详解Tests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "TableView的cell自适应行高详解Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dahuangfeng.TableView-cell-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableView的cell自适应行高详解.app/TableView的cell自适应行高详解";
+			};
+			name = Release;
+		};
+		878264321D990BFA00A6A70B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FB7B17B2DB6FF378BD4E3E5 /* Pods-TableView的cell自适应行高详解UITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "TableView的cell自适应行高详解UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dahuangfeng.TableView-cell-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "TableView的cell自适应行高详解";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		878264331D990BFA00A6A70B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B555D92E3C7B91274FF41E9D /* Pods-TableView的cell自适应行高详解UITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = "TableView的cell自适应行高详解UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dahuangfeng.TableView-cell-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "TableView的cell自适应行高详解";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		878263F91D990BFA00A6A70B /* Build configuration list for PBXProject "TableView的cell自适应行高详解" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				878264291D990BFA00A6A70B /* Debug */,
+				8782642A1D990BFA00A6A70B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8782642B1D990BFA00A6A70B /* Build configuration list for PBXNativeTarget "TableView的cell自适应行高详解" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8782642C1D990BFA00A6A70B /* Debug */,
+				8782642D1D990BFA00A6A70B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8782642E1D990BFA00A6A70B /* Build configuration list for PBXNativeTarget "TableView的cell自适应行高详解Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8782642F1D990BFA00A6A70B /* Debug */,
+				878264301D990BFA00A6A70B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		878264311D990BFA00A6A70B /* Build configuration list for PBXNativeTarget "TableView的cell自适应行高详解UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				878264321D990BFA00A6A70B /* Debug */,
+				878264331D990BFA00A6A70B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 878263F61D990BFA00A6A70B /* Project object */;
+}

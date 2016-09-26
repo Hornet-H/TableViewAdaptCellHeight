@@ -1,0 +1,27 @@
+# Uncomment this line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'TableView的cell自适应行高详解' do
+  # Uncomment this line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for TableView的cell自适应行高详解
+
+  target 'TableView的cell自适应行高详解Tests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'TableView的cell自适应行高详解UITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+
+pod 'Masonry', '~> 1.0.1'
+pod 'YYCategories', '~> 1.0.3'
+pod 'IQKeyboardManager', '~> 4.0.5'
+pod 'ChatKit', '~> 0.7.1'
+
+
+end

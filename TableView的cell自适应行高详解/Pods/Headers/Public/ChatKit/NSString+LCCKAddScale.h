@@ -1,0 +1,1 @@
+../../../ChatKit/ChatKit/Class/Module/Conversation/Tool/DisableImageMemoryCache/NSString+LCCKAddScale.h

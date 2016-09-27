@@ -1,0 +1,1 @@
+../../../ChatKit/ChatKit/Class/Tool/LCCKServiceDefinition.h

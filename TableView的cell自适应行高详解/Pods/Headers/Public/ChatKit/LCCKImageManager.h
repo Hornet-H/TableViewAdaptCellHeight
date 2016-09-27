@@ -1,0 +1,1 @@
+../../../ChatKit/ChatKit/Class/Module/Conversation/Tool/DisableImageMemoryCache/LCCKImageManager.h

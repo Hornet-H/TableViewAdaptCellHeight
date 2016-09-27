@@ -1,0 +1,1 @@
+../../../ChatKit/ChatKit/Class/Module/Base/LCCKBaseViewController.h

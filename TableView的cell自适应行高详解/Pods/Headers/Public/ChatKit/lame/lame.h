@@ -1,0 +1,1 @@
+../../../../ChatKit/ChatKit/Class/Tool/Vendor/VoiceLib/lame.framework/Headers/lame.h

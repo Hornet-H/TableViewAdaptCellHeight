@@ -1,0 +1,1 @@
+../../../ChatKit/ChatKit/Class/Module/Conversation/Model/LCCKConversationViewModel.h

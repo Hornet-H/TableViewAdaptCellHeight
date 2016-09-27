@@ -1,0 +1,1 @@
+../../../ChatKit/ChatKit/Class/Module/ContactList/Model/LCCKContact.h

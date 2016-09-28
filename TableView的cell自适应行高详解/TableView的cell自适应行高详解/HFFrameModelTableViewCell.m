@@ -65,8 +65,6 @@
     [super layoutSubviews];
     self.titleLabel.frame = CGRectMake(margin, margin/2, kScreenWidth - 2 * margin - 50, 25);
     self.priceLabel.frame = CGRectMake(self.titleLabel.right, margin/2, 50, 25);
-    //    self.descLabel.frame = CGRectMake(margin, self.titleLabel.bottom, kScreenWidth - 2 * margin , 0);
-    //    self.guideLabel.frame = CGRectMake(margin, self.descLabel.bottom, kScreenWidth - 2 * margin , 0);
     self.timeLabel.frame = CGRectMake(kScreenWidth - 100 - margin, self.guideLabel.bottom, 100, 20) ;
 }
 
@@ -74,9 +72,9 @@
     if (!_titleLabel) {
         _titleLabel = [[UILabel alloc]init];
         _titleLabel.numberOfLines = 0;
-        _titleLabel.backgroundColor = randomColor;
         _titleLabel.font = [UIFont systemFontOfSize:20];
-            }
+        _titleLabel.textColor = randomColor;
+    }
     return _titleLabel;
 }
 
@@ -84,7 +82,7 @@
     if (!_descLabel) {
         _descLabel = [[UILabel alloc]init];
         _descLabel.numberOfLines = 0;
-        _descLabel.backgroundColor = randomColor;
+//        _descLabel.backgroundColor = randomColor;
         _descLabel.font = [UIFont systemFontOfSize:16];
     }
     return _descLabel;
@@ -94,8 +92,7 @@
     if (!_guideLabel) {
         _guideLabel = [[UILabel alloc]init];
         _guideLabel.numberOfLines = 0;
-        _guideLabel.backgroundColor = randomColor;
-//        _guideLabel.textColor = randomColor;
+        _guideLabel.textColor = randomColor;
         _guideLabel.font = [UIFont systemFontOfSize:16];
     }
     return _guideLabel;
@@ -106,9 +103,9 @@
     if (!_timeLabel) {
         _timeLabel = [[UILabel alloc]init];
         _timeLabel.numberOfLines = 0;
-        _timeLabel.backgroundColor = randomColor;
 //        _timeLabel.textColor = randomColor;
-        _timeLabel.font = [UIFont systemFontOfSize:20];
+        _timeLabel.textAlignment = NSTextAlignmentCenter;
+        _timeLabel.font = [UIFont systemFontOfSize:16];
     }
     return _timeLabel;
     
@@ -119,7 +116,8 @@
     if (!_priceLabel) {
         _priceLabel = [[UILabel alloc]init];
         _priceLabel.numberOfLines = 0;
-        _priceLabel.backgroundColor = randomColor;
+//        _priceLabel.backgroundColor = randomColor;
+        _priceLabel.textAlignment = NSTextAlignmentCenter;
 //        _priceLabel.textColor = randomColor;
         _priceLabel.font = [UIFont systemFontOfSize:20];
     }

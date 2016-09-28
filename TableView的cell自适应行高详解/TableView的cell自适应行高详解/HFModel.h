@@ -16,6 +16,11 @@
 @property (copy, nonatomic) NSString *guide;
 @property (copy, nonatomic) NSString *time;
 
+/** 在setModel里面获取*/
+@property (assign, nonatomic) CGFloat cellHeight;
+
+
+/** 行高在model里面计算得出的结果*/
 @property (assign, nonatomic,readonly) CGFloat heightOfCell;
 
 @end

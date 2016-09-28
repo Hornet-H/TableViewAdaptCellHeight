@@ -11,5 +11,10 @@
 @implementation HFModel
 
 
+- (void)calculateTheCellHeight{
 
+
+
+
+}
 @end

@@ -10,11 +10,11 @@
 
 @interface HFModel : NSObject
 
-@property (assign, nonatomic) NSString *price;
-@property (assign, nonatomic) NSString *title;
-@property (assign, nonatomic) NSString *desc;
-@property (assign, nonatomic) NSString *guide;
-@property (assign, nonatomic) NSString *time;
+@property (copy, nonatomic) NSString *price;
+@property (copy, nonatomic) NSString *title;
+@property (copy, nonatomic) NSString *desc;
+@property (copy, nonatomic) NSString *guide;
+@property (copy, nonatomic) NSString *time;
 
 
 @end

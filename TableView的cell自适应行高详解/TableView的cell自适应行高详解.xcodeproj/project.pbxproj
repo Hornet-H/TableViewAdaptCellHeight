@@ -30,6 +30,8 @@
 		878264751D9B608E00A6A70B /* HFFrameModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 878264741D9B608E00A6A70B /* HFFrameModelViewController.m */; };
 		878264781D9B690D00A6A70B /* HFFrameModelTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 878264771D9B690D00A6A70B /* HFFrameModelTableViewCell.m */; };
 		879233D41D9BB71500A1BFEB /* PropertyList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 879233D31D9BB71500A1BFEB /* PropertyList.plist */; };
+		879233D71D9BCA7900A1BFEB /* HFSetTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 879233D61D9BCA7900A1BFEB /* HFSetTableViewCell.m */; };
+		879233DA1D9BCC0B00A1BFEB /* HFSetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 879233D91D9BCC0B00A1BFEB /* HFSetModel.m */; };
 		EDDACECF2F6A97DC8C5F3E43 /* libPods-TableView的cell自适应行高详解Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C9A41B0AB0EE5BFB49D26B0 /* libPods-TableView的cell自适应行高详解Tests.a */; };
 /* End PBXBuildFile section */
 
@@ -98,6 +100,10 @@
 		878264761D9B690D00A6A70B /* HFFrameModelTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFFrameModelTableViewCell.h; sourceTree = "<group>"; };
 		878264771D9B690D00A6A70B /* HFFrameModelTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFFrameModelTableViewCell.m; sourceTree = "<group>"; };
 		879233D31D9BB71500A1BFEB /* PropertyList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = PropertyList.plist; sourceTree = "<group>"; };
+		879233D51D9BCA7900A1BFEB /* HFSetTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFSetTableViewCell.h; sourceTree = "<group>"; };
+		879233D61D9BCA7900A1BFEB /* HFSetTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFSetTableViewCell.m; sourceTree = "<group>"; };
+		879233D81D9BCC0B00A1BFEB /* HFSetModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFSetModel.h; sourceTree = "<group>"; };
+		879233D91D9BCC0B00A1BFEB /* HFSetModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFSetModel.m; sourceTree = "<group>"; };
 		8C9A41B0AB0EE5BFB49D26B0 /* libPods-TableView的cell自适应行高详解Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TableView的cell自适应行高详解Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC476DC24292E99D4E87BBAE /* Pods-TableView的cell自适应行高详解.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableView的cell自适应行高详解.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TableView的cell自适应行高详解/Pods-TableView的cell自适应行高详解.debug.xcconfig"; sourceTree = "<group>"; };
 		B555D92E3C7B91274FF41E9D /* Pods-TableView的cell自适应行高详解UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableView的cell自适应行高详解UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TableView的cell自适应行高详解UITests/Pods-TableView的cell自适应行高详解UITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -273,6 +279,8 @@
 			children = (
 				878264761D9B690D00A6A70B /* HFFrameModelTableViewCell.h */,
 				878264771D9B690D00A6A70B /* HFFrameModelTableViewCell.m */,
+				879233D51D9BCA7900A1BFEB /* HFSetTableViewCell.h */,
+				879233D61D9BCA7900A1BFEB /* HFSetTableViewCell.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -284,6 +292,8 @@
 				878264651D9A25FB00A6A70B /* HFModel.m */,
 				8782646D1D9A4DF700A6A70B /* HFFrameModel.h */,
 				8782646E1D9A4DF800A6A70B /* HFFrameModel.m */,
+				879233D81D9BCC0B00A1BFEB /* HFSetModel.h */,
+				879233D91D9BCC0B00A1BFEB /* HFSetModel.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -640,6 +650,8 @@
 				878264451D991D9000A6A70B /* HFBaseViewController.m in Sources */,
 				8782645A1D9A233000A6A70B /* HFMasnoryViewController.m in Sources */,
 				878264061D990BFA00A6A70B /* AppDelegate.m in Sources */,
+				879233DA1D9BCC0B00A1BFEB /* HFSetModel.m in Sources */,
+				879233D71D9BCA7900A1BFEB /* HFSetTableViewCell.m in Sources */,
 				878264031D990BFA00A6A70B /* main.m in Sources */,
 				878264511D9A22C900A6A70B /* HFSetWayViewController.m in Sources */,
 				878264571D9A231B00A6A70B /* HFAutoViewController.m in Sources */,

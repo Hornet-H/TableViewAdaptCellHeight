@@ -229,7 +229,7 @@
         <!--Set方法返回-->
         <scene sceneID="pZb-3B-OJs">
             <objects>
-                <viewController id="dm3-nL-Rcu" sceneMemberID="viewController">
+                <viewController id="dm3-nL-Rcu" customClass="HFSetWayViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="0sc-0h-TqW"/>
                         <viewControllerLayoutGuide type="bottom" id="Du3-1h-vBF"/>
@@ -243,7 +243,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kPM-4j-1vV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2371.5" y="-242.25"/>
+            <point key="canvasLocation" x="2371.5" y="-198.75"/>
         </scene>
         <!--使用frame结合iOS8.0特性-->
         <scene sceneID="gTC-2r-lXJ">

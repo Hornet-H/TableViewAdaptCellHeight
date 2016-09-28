@@ -286,7 +286,7 @@
         <!--网络第三方库FD-->
         <scene sceneID="pm4-6l-XaU">
             <objects>
-                <viewController id="BgB-Oh-zcC" sceneMemberID="viewController">
+                <viewController id="BgB-Oh-zcC" customClass="HFFDViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="4Fd-vy-lw3"/>
                         <viewControllerLayoutGuide type="bottom" id="WNU-cd-2Vp"/>

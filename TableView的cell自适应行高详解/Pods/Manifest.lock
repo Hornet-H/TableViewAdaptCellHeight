@@ -51,6 +51,7 @@ DEPENDENCIES:
   - IQKeyboardManager (~> 4.0.5)
   - Masonry (~> 1.0.1)
   - MJExtension (~> 3.0.13)
+  - UITableView+FDTemplateLayoutCell (~> 1.5.beta)
   - YYCategories (~> 1.0.3)
 
 SPEC CHECKSUMS:
@@ -72,6 +73,6 @@ SPEC CHECKSUMS:
   UITableView+FDTemplateLayoutCell: 02b508ab1cb4cea16a8c17ac83d2cd1fd72124f9
   YYCategories: 0fd4d9eb0994d8d0e355beb4081c8f7202a82b7b
 
-PODFILE CHECKSUM: 28b3b446ce83b39ceb301eee58f77c51bd83ae6d
+PODFILE CHECKSUM: 6c96b0c89fa68e223eee7b8652b3a67cbeb994ff
 
 COCOAPODS: 1.0.1

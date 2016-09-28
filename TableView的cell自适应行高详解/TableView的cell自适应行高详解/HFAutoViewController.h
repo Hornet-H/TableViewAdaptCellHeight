@@ -6,8 +6,7 @@
 //  Copyright © 2016年 dahuangfeng. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-
-@interface HFAutoViewController : UIViewController
+#import "HFBaseViewController.h"
+@interface HFAutoViewController : HFBaseViewController
 
 @end

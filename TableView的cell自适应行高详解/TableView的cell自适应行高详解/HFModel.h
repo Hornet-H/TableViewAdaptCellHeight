@@ -9,9 +9,12 @@
 #import <Foundation/Foundation.h>
 
 @interface HFModel : NSObject
+
+@property (assign, nonatomic) NSString *price;
 @property (assign, nonatomic) NSString *title;
 @property (assign, nonatomic) NSString *desc;
 @property (assign, nonatomic) NSString *guide;
 @property (assign, nonatomic) NSString *time;
-@property (assign, nonatomic) NSString *price;
+
+
 @end

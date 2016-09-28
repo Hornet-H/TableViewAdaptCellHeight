@@ -9,5 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface HFBaseViewController : UIViewController
+@property (strong, nonatomic) NSArray *dataArr;
+
+- (void)setupUI;
 
 @end

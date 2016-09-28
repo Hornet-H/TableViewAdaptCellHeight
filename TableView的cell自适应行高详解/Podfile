@@ -22,6 +22,6 @@ pod 'Masonry', '~> 1.0.1'
 pod 'YYCategories', '~> 1.0.3'
 pod 'IQKeyboardManager', '~> 4.0.5'
 pod 'ChatKit', '~> 0.7.1'
-
+pod 'MJExtension', '~> 3.0.13'
 
 end

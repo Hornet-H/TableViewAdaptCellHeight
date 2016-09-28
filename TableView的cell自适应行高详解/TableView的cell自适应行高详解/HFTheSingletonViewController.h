@@ -6,8 +6,8 @@
 //  Copyright © 2016年 dahuangfeng. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "HFBaseViewController.h"
 
-@interface HFTheSingletonViewController : UIViewController
+@interface HFTheSingletonViewController : HFBaseViewController
 
 @end

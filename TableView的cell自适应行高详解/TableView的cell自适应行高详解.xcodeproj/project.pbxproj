@@ -18,7 +18,6 @@
 		8782641C1D990BFA00A6A70B /* TableView_cell_______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8782641B1D990BFA00A6A70B /* TableView_cell_______Tests.m */; };
 		878264271D990BFA00A6A70B /* TableView_cell_______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 878264261D990BFA00A6A70B /* TableView_cell_______UITests.m */; };
 		878264451D991D9000A6A70B /* HFBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 878264441D991D9000A6A70B /* HFBaseViewController.m */; };
-		8782644B1D9A229800A6A70B /* HFFrameModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8782644A1D9A229800A6A70B /* HFFrameModelViewController.m */; };
 		8782644E1D9A22B100A6A70B /* HFModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8782644D1D9A22B100A6A70B /* HFModelViewController.m */; };
 		878264511D9A22C900A6A70B /* HFSetWayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 878264501D9A22C900A6A70B /* HFSetWayViewController.m */; };
 		878264571D9A231B00A6A70B /* HFAutoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 878264561D9A231B00A6A70B /* HFAutoViewController.m */; };
@@ -27,6 +26,10 @@
 		878264601D9A237200A6A70B /* HFFDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8782645F1D9A237200A6A70B /* HFFDViewController.m */; };
 		878264661D9A25FB00A6A70B /* HFModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 878264651D9A25FB00A6A70B /* HFModel.m */; };
 		8782646C1D9A405900A6A70B /* Property List.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8782646B1D9A405900A6A70B /* Property List.plist */; };
+		8782646F1D9A4DF800A6A70B /* HFFrameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8782646E1D9A4DF800A6A70B /* HFFrameModel.m */; };
+		878264721D9B5C5400A6A70B /* NSObject+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 878264711D9B5C5400A6A70B /* NSObject+MJExtension.m */; };
+		878264751D9B608E00A6A70B /* HFFrameModelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 878264741D9B608E00A6A70B /* HFFrameModelViewController.m */; };
+		878264781D9B690D00A6A70B /* HFFrameModelTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 878264771D9B690D00A6A70B /* HFFrameModelTableViewCell.m */; };
 		EDDACECF2F6A97DC8C5F3E43 /* libPods-TableView的cell自适应行高详解Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C9A41B0AB0EE5BFB49D26B0 /* libPods-TableView的cell自适应行高详解Tests.a */; };
 /* End PBXBuildFile section */
 
@@ -71,8 +74,6 @@
 		878264281D990BFA00A6A70B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		878264431D991D9000A6A70B /* HFBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFBaseViewController.h; sourceTree = "<group>"; };
 		878264441D991D9000A6A70B /* HFBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFBaseViewController.m; sourceTree = "<group>"; };
-		878264491D9A229800A6A70B /* HFFrameModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFFrameModelViewController.h; sourceTree = "<group>"; };
-		8782644A1D9A229800A6A70B /* HFFrameModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFFrameModelViewController.m; sourceTree = "<group>"; };
 		8782644C1D9A22B100A6A70B /* HFModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFModelViewController.h; sourceTree = "<group>"; };
 		8782644D1D9A22B100A6A70B /* HFModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFModelViewController.m; sourceTree = "<group>"; };
 		8782644F1D9A22C900A6A70B /* HFSetWayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFSetWayViewController.h; sourceTree = "<group>"; };
@@ -89,6 +90,14 @@
 		878264651D9A25FB00A6A70B /* HFModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFModel.m; sourceTree = "<group>"; };
 		8782646A1D9A39FE00A6A70B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		8782646B1D9A405900A6A70B /* Property List.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Property List.plist"; sourceTree = "<group>"; };
+		8782646D1D9A4DF700A6A70B /* HFFrameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFFrameModel.h; sourceTree = "<group>"; };
+		8782646E1D9A4DF800A6A70B /* HFFrameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFFrameModel.m; sourceTree = "<group>"; };
+		878264701D9B5C5400A6A70B /* NSObject+MJExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+MJExtension.h"; sourceTree = "<group>"; };
+		878264711D9B5C5400A6A70B /* NSObject+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MJExtension.m"; sourceTree = "<group>"; };
+		878264731D9B608E00A6A70B /* HFFrameModelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFFrameModelViewController.h; sourceTree = "<group>"; };
+		878264741D9B608E00A6A70B /* HFFrameModelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFFrameModelViewController.m; sourceTree = "<group>"; };
+		878264761D9B690D00A6A70B /* HFFrameModelTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFFrameModelTableViewCell.h; sourceTree = "<group>"; };
+		878264771D9B690D00A6A70B /* HFFrameModelTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFFrameModelTableViewCell.m; sourceTree = "<group>"; };
 		8C9A41B0AB0EE5BFB49D26B0 /* libPods-TableView的cell自适应行高详解Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TableView的cell自适应行高详解Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC476DC24292E99D4E87BBAE /* Pods-TableView的cell自适应行高详解.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableView的cell自适应行高详解.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TableView的cell自适应行高详解/Pods-TableView的cell自适应行高详解.debug.xcconfig"; sourceTree = "<group>"; };
 		B555D92E3C7B91274FF41E9D /* Pods-TableView的cell自适应行高详解UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableView的cell自适应行高详解UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TableView的cell自适应行高详解UITests/Pods-TableView的cell自适应行高详解UITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -240,8 +249,8 @@
 		8782643A1D991C7700A6A70B /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				878264491D9A229800A6A70B /* HFFrameModelViewController.h */,
-				8782644A1D9A229800A6A70B /* HFFrameModelViewController.m */,
+				878264731D9B608E00A6A70B /* HFFrameModelViewController.h */,
+				878264741D9B608E00A6A70B /* HFFrameModelViewController.m */,
 				8782644C1D9A22B100A6A70B /* HFModelViewController.h */,
 				8782644D1D9A22B100A6A70B /* HFModelViewController.m */,
 				8782644F1D9A22C900A6A70B /* HFSetWayViewController.h */,
@@ -262,6 +271,8 @@
 		8782643B1D991C7900A6A70B /* View */ = {
 			isa = PBXGroup;
 			children = (
+				878264761D9B690D00A6A70B /* HFFrameModelTableViewCell.h */,
+				878264771D9B690D00A6A70B /* HFFrameModelTableViewCell.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -271,6 +282,8 @@
 			children = (
 				878264641D9A25FB00A6A70B /* HFModel.h */,
 				878264651D9A25FB00A6A70B /* HFModel.m */,
+				8782646D1D9A4DF700A6A70B /* HFFrameModel.h */,
+				8782646E1D9A4DF800A6A70B /* HFFrameModel.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -309,6 +322,8 @@
 			children = (
 				878264431D991D9000A6A70B /* HFBaseViewController.h */,
 				878264441D991D9000A6A70B /* HFBaseViewController.m */,
+				878264701D9B5C5400A6A70B /* NSObject+MJExtension.h */,
+				878264711D9B5C5400A6A70B /* NSObject+MJExtension.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -613,7 +628,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				878264781D9B690D00A6A70B /* HFFrameModelTableViewCell.m in Sources */,
+				878264751D9B608E00A6A70B /* HFFrameModelViewController.m in Sources */,
+				8782646F1D9A4DF800A6A70B /* HFFrameModel.m in Sources */,
 				8782644E1D9A22B100A6A70B /* HFModelViewController.m in Sources */,
+				878264721D9B5C5400A6A70B /* NSObject+MJExtension.m in Sources */,
 				878264601D9A237200A6A70B /* HFFDViewController.m in Sources */,
 				878264091D990BFA00A6A70B /* ViewController.m in Sources */,
 				878264661D9A25FB00A6A70B /* HFModel.m in Sources */,
@@ -623,7 +642,6 @@
 				878264061D990BFA00A6A70B /* AppDelegate.m in Sources */,
 				878264031D990BFA00A6A70B /* main.m in Sources */,
 				878264511D9A22C900A6A70B /* HFSetWayViewController.m in Sources */,
-				8782644B1D9A229800A6A70B /* HFFrameModelViewController.m in Sources */,
 				878264571D9A231B00A6A70B /* HFAutoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

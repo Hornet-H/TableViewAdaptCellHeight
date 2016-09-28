@@ -6,8 +6,8 @@
 //  Copyright © 2016年 dahuangfeng. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "HFBaseViewController.h"
 
-@interface HFFDViewController : UIViewController
+@interface HFFDViewController : HFBaseViewController
 
 @end

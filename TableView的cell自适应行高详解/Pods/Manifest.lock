@@ -30,6 +30,7 @@ PODS:
   - IQKeyboardManager (4.0.5)
   - Masonry (1.0.1)
   - MBProgressHUD (0.9.2)
+  - MJExtension (3.0.13)
   - MJRefresh (3.1.12)
   - MLLabel (1.9.2)
   - MWPhotoBrowser (2.1.2):
@@ -49,6 +50,7 @@ DEPENDENCIES:
   - ChatKit (~> 0.7.1)
   - IQKeyboardManager (~> 4.0.5)
   - Masonry (~> 1.0.1)
+  - MJExtension (~> 3.0.13)
   - YYCategories (~> 1.0.3)
 
 SPEC CHECKSUMS:
@@ -61,6 +63,7 @@ SPEC CHECKSUMS:
   IQKeyboardManager: 50b62c0603308968256f8208886e206c1dcce607
   Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
   MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
   MLLabel: df58127ce0bd1f87890ecc3232db77a85ce4cd97
   MWPhotoBrowser: 5836d7aa041dc05a13de380c246826578adc5ea5
@@ -69,6 +72,6 @@ SPEC CHECKSUMS:
   UITableView+FDTemplateLayoutCell: 02b508ab1cb4cea16a8c17ac83d2cd1fd72124f9
   YYCategories: 0fd4d9eb0994d8d0e355beb4081c8f7202a82b7b
 
-PODFILE CHECKSUM: acf2faecd5c40853e790375b951d3f67e6c3fab4
+PODFILE CHECKSUM: 28b3b446ce83b39ceb301eee58f77c51bd83ae6d
 
 COCOAPODS: 1.0.1

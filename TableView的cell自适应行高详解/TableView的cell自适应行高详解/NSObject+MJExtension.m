@@ -19,18 +19,18 @@
     }
     return responseObj;
 }
-+(NSDictionary *)mj_objectClassInArray{
-    return [self objClassInArray];
-}
-+(NSDictionary *)objClassInArray{
-    return nil;
-}
-+(NSDictionary *)mj_replacedKeyFromPropertyName{
-    return [self replaceKeyFromPropertyName];
-}
-+(NSDictionary *)replaceKeyFromPropertyName{
-    return nil;
-}
+//+(NSDictionary *)mj_objectClassInArray{
+//    return [self objClassInArray];
+//}
+//+(NSDictionary *)objClassInArray{
+//    return nil;
+//}
+//+(NSDictionary *)mj_replacedKeyFromPropertyName{
+//    return [self replaceKeyFromPropertyName];
+//}
+//+(NSDictionary *)replaceKeyFromPropertyName{
+//    return nil;
+//}
 /** 通过加载Plist文件返回一个模型数组*/
 + (NSMutableArray *)objectArrayWithFilename:(NSString *)filename{
    return  [self mj_objectArrayWithFilename:filename];

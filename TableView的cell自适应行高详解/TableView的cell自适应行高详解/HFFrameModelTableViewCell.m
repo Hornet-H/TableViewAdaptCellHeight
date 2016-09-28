@@ -32,41 +32,55 @@
 - (void)setupUI{
     
     [self.contentView addSubview:self.titleLabel];
+    [self.contentView addSubview:self.priceLabel];
     [self.contentView addSubview:self.descLabel];
-//    [self.contentView addSubview:self.guideLabel];
-//    [self.contentView addSubview:self.timeLabel];
-//    [self.contentView addSubview:self.priceLabel];
-     [self layoutIfNeeded];
+    [self.contentView addSubview:self.guideLabel];
+    [self.contentView addSubview:self.timeLabel];
+    
+    [self layoutIfNeeded];
 }
 
 - (void)setModel:(HFModel *)model{
     _model = model;
     self.titleLabel.text = model.title;
-        self.descLabel.text = model.desc;
-        CGSize maxSize = CGSizeMake(kScreenWidth - 2 * margin, CGFLOAT_MAX);
-        CGRect descRect = [model.desc boundingRectWithSize:maxSize options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:[UIFont systemFontOfSize:16]} context:nil];
-        self.descLabel.frame = CGRectMake(margin, self.titleLabel.bottom, descRect.size.width, descRect.size.height);
-//    self.guideLabel.text = model.guide;
-//    self.titleLabel.text = model.time;
-//    self.priceLabel.text = model.price;
-
+    self.priceLabel.text = model.price;
+    self.descLabel.text = model.desc;
+    
+    self.guideLabel.text = model.guide;
+    self.timeLabel.text = model.time;
+    [self setSubViewsFrameWithModel:model];
 }
 
+- (void)setSubViewsFrameWithModel:(HFModel *)model {
+    
+    CGSize maxSize = CGSizeMake(kScreenWidth - 2 * margin, CGFLOAT_MAX);
+    CGRect descRect = [model.desc boundingRectWithSize:maxSize options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:[UIFont systemFontOfSize:16]} context:nil];
+    self.descLabel.frame = CGRectMake(margin, self.titleLabel.bottom, descRect.size.width, descRect.size.height);
+    
+    
+    CGRect guideRect = [model.guide boundingRectWithSize:maxSize options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:[UIFont systemFontOfSize:16]} context:nil];
+    self.guideLabel.frame = CGRectMake(margin, self.descLabel.bottom, guideRect.size.width, guideRect.size.height);
+    
+    
+    
+    
+}
 
 - (void)layoutSubviews{
     [super layoutSubviews];
-    self.titleLabel.frame = CGRectMake(margin, margin/2, kScreenWidth - 2 * margin , 25);
-//    self.descLabel.frame = CGRectMake(margin, self.titleLabel.bottom, kScreenWidth - 2 * margin , 0);
-    
-    
+    self.titleLabel.frame = CGRectMake(margin, margin/2, kScreenWidth - 2 * margin - 50, 25);
+    self.priceLabel.frame = CGRectMake(self.titleLabel.right, margin/2, 50, 25);
+    //    self.descLabel.frame = CGRectMake(margin, self.titleLabel.bottom, kScreenWidth - 2 * margin , 0);
+    //    self.guideLabel.frame = CGRectMake(margin, self.descLabel.bottom, kScreenWidth - 2 * margin , 0);
+    self.timeLabel.frame = CGRectMake(kScreenWidth - 100 - margin, self.guideLabel.bottom, 100, 20) ;
 }
 
 - (UILabel *)titleLabel{
     if (!_titleLabel) {
         _titleLabel = [[UILabel alloc]init];
         _titleLabel.numberOfLines = 0;
-        _titleLabel.backgroundColor = [UIColor redColor];
-        _titleLabel.textColor = randomColor;
+        _titleLabel.backgroundColor = randomColor;
+//        _titleLabel.textColor = randomColor;
         _titleLabel.font = [UIFont systemFontOfSize:20];
     }
     return _titleLabel;
@@ -76,9 +90,9 @@
     if (!_descLabel) {
         _descLabel = [[UILabel alloc]init];
         _descLabel.numberOfLines = 0;
-        _descLabel.backgroundColor = [UIColor greenColor];
-        _descLabel.textColor = randomColor;
-//        _descLabel.preferredMaxLayoutWidth = kScreenWidth - 2 * margin;
+        _descLabel.backgroundColor = randomColor;
+//        _descLabel.textColor = randomColor;
+        //        _descLabel.preferredMaxLayoutWidth = kScreenWidth - 2 * margin;
         _descLabel.font = [UIFont systemFontOfSize:16];
     }
     return _descLabel;
@@ -88,8 +102,8 @@
     if (!_guideLabel) {
         _guideLabel = [[UILabel alloc]init];
         _guideLabel.numberOfLines = 0;
-        _guideLabel.backgroundColor = [UIColor redColor];
-        _guideLabel.textColor = randomColor;
+        _guideLabel.backgroundColor = randomColor;
+//        _guideLabel.textColor = randomColor;
         _guideLabel.font = [UIFont systemFontOfSize:20];
     }
     return _guideLabel;
@@ -100,8 +114,8 @@
     if (!_timeLabel) {
         _timeLabel = [[UILabel alloc]init];
         _timeLabel.numberOfLines = 0;
-        _timeLabel.backgroundColor = [UIColor redColor];
-        _timeLabel.textColor = randomColor;
+        _timeLabel.backgroundColor = randomColor;
+//        _timeLabel.textColor = randomColor;
         _timeLabel.font = [UIFont systemFontOfSize:20];
     }
     return _timeLabel;
@@ -113,8 +127,8 @@
     if (!_priceLabel) {
         _priceLabel = [[UILabel alloc]init];
         _priceLabel.numberOfLines = 0;
-        _priceLabel.backgroundColor = [UIColor redColor];
-        _priceLabel.textColor = randomColor;
+        _priceLabel.backgroundColor = randomColor;
+//        _priceLabel.textColor = randomColor;
         _priceLabel.font = [UIFont systemFontOfSize:20];
     }
     return _priceLabel;

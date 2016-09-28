@@ -31,7 +31,7 @@
 
 - (NSArray *)dataArr{
     if (!_dataArr) {
-            NSMutableArray * tempArr = [HFModel objectArrayWithFilename:@"Property List.plist"];
+            NSMutableArray * tempArr = [HFModel hf_objectArrayWithFilename:@"PropertyList.plist"];
         _dataArr = tempArr.copy;
     }
     return _dataArr;

@@ -45,7 +45,6 @@
     self.titleLabel.text = model.title;
     self.priceLabel.text = model.price;
     self.descLabel.text = model.desc;
-    
     self.guideLabel.text = model.guide;
     self.timeLabel.text = model.time;
     [self setSubViewsFrameWithModel:model];
@@ -57,13 +56,9 @@
     CGRect descRect = [model.desc boundingRectWithSize:maxSize options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:[UIFont systemFontOfSize:16]} context:nil];
     self.descLabel.frame = CGRectMake(margin, self.titleLabel.bottom, descRect.size.width, descRect.size.height);
     
-    
     CGRect guideRect = [model.guide boundingRectWithSize:maxSize options:NSStringDrawingUsesLineFragmentOrigin attributes:@{NSFontAttributeName:[UIFont systemFontOfSize:16]} context:nil];
     self.guideLabel.frame = CGRectMake(margin, self.descLabel.bottom, guideRect.size.width, guideRect.size.height);
-    
-    
-    
-    
+    NSLog(@"----%f-----",self.guideLabel.origin.y);
 }
 
 - (void)layoutSubviews{
@@ -80,9 +75,8 @@
         _titleLabel = [[UILabel alloc]init];
         _titleLabel.numberOfLines = 0;
         _titleLabel.backgroundColor = randomColor;
-//        _titleLabel.textColor = randomColor;
         _titleLabel.font = [UIFont systemFontOfSize:20];
-    }
+            }
     return _titleLabel;
 }
 
@@ -91,8 +85,6 @@
         _descLabel = [[UILabel alloc]init];
         _descLabel.numberOfLines = 0;
         _descLabel.backgroundColor = randomColor;
-//        _descLabel.textColor = randomColor;
-        //        _descLabel.preferredMaxLayoutWidth = kScreenWidth - 2 * margin;
         _descLabel.font = [UIFont systemFontOfSize:16];
     }
     return _descLabel;
@@ -104,7 +96,7 @@
         _guideLabel.numberOfLines = 0;
         _guideLabel.backgroundColor = randomColor;
 //        _guideLabel.textColor = randomColor;
-        _guideLabel.font = [UIFont systemFontOfSize:20];
+        _guideLabel.font = [UIFont systemFontOfSize:16];
     }
     return _guideLabel;
 }

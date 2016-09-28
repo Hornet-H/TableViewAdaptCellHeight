@@ -14,6 +14,6 @@
 + (id)parse:(id)responseObj;
 + (NSDictionary *)objClassInArray;
 + (NSDictionary *)replaceKeyFromPropertyName;
-+ (NSMutableArray *)objectArrayWithFilename:(NSString *)filename;
++ (NSMutableArray *)hf_objectArrayWithFilename:(NSString *)filename;
 @end
 

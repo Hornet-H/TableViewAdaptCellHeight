@@ -32,7 +32,7 @@
 //    return nil;
 //}
 /** 通过加载Plist文件返回一个模型数组*/
-+ (NSMutableArray *)objectArrayWithFilename:(NSString *)filename{
++ (NSMutableArray *)hf_objectArrayWithFilename:(NSString *)filename{
    return  [self mj_objectArrayWithFilename:filename];
 }
 

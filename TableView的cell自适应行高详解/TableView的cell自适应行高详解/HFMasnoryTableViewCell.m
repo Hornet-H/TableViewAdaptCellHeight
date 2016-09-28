@@ -48,7 +48,8 @@
 - (void)layoutSubviews{
     [super layoutSubviews];
     [self.titleLabel mas_makeConstraints:^(MASConstraintMaker *make) {
-        make.top.left.equalTo(self.contentView).offset(margineSide);
+        make.top.equalTo(self.contentView.mas_top).offset(margineSide);
+        make.left.equalTo(self.contentView.mas_left).offset(margineSide);
         make.width.equalTo(kScreenWidth - 60 - 2 * margineSide);
     }];
     [self.priceLabel mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -58,7 +59,7 @@
     }];
     [self.descLabel mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(self.titleLabel.mas_bottom).offset(margineSide);
-        make.left.equalTo(self.contentView).offset(margineSide);
+        make.left.equalTo(self.contentView.mas_left).offset(margineSide);
         make.right.equalTo(self.contentView.mas_right).offset(- margineSide);
     }];
     [self.guideLabel mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -66,11 +67,17 @@
         make.left.equalTo(self.contentView.mas_left).offset(margineSide);
         make.right.equalTo(self.contentView.mas_right).offset(- margineSide);
     }];
-    [self.titleLabel mas_makeConstraints:^(MASConstraintMaker *make) {
+    [self.timeLabel mas_makeConstraints:^(MASConstraintMaker *make) {
         make.top.equalTo(self.guideLabel.mas_bottom).offset(margineSide);
         make.width.equalTo(100);
-        make.right.equalTo(self.contentView.mas_right).offset(-margineSide);
-        make.bottom.equalTo(self.contentView.mas_bottom);
+        make.right.equalTo(self.contentView.mas_right).offset(- margineSide);
+        make.bottom.equalTo(self.contentView.mas_bottom).offset(- margineSide);
+    }];
+    [self.contentView mas_makeConstraints:^(MASConstraintMaker *make) {
+        make.top.equalTo(self.mas_top);
+        make.left.equalTo(self.mas_left);
+        make.right.equalTo(self.mas_right);
+        make.bottom.equalTo(self.mas_bottom);
     }];
 }
 - (void)setModel:(HFModel *)model{
@@ -80,7 +87,6 @@
     self.descLabel.text = model.desc;
     self.guideLabel.text = model.guide;
     self.titleLabel.text = model.time;
-
 }
 - (UILabel *)titleLabel{
     if (!_titleLabel) {

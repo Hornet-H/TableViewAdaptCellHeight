@@ -16,6 +16,6 @@
 @property (copy, nonatomic) NSString *guide;
 @property (copy, nonatomic) NSString *time;
 
-@property (assign, nonatomic) CGFloat cellHeight;
+@property (assign, nonatomic,readonly) CGFloat heightOfCell;
 
 @end

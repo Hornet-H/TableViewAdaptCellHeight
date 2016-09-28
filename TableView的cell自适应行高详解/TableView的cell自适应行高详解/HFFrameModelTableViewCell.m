@@ -73,6 +73,7 @@
         _titleLabel = [[UILabel alloc]init];
         _titleLabel.numberOfLines = 0;
         _titleLabel.font = [UIFont systemFontOfSize:20];
+        
         _titleLabel.textColor = randomColor;
     }
     return _titleLabel;
@@ -83,6 +84,7 @@
         _descLabel = [[UILabel alloc]init];
         _descLabel.numberOfLines = 0;
 //        _descLabel.backgroundColor = randomColor;
+//        _descLabel.preferredMaxLayoutWidth = kScreenWidth - 2 * margin;
         _descLabel.font = [UIFont systemFontOfSize:16];
     }
     return _descLabel;
@@ -93,6 +95,7 @@
         _guideLabel = [[UILabel alloc]init];
         _guideLabel.numberOfLines = 0;
         _guideLabel.textColor = randomColor;
+//        _guideLabel.preferredMaxLayoutWidth = kScreenWidth - 2 * margin;
         _guideLabel.font = [UIFont systemFontOfSize:16];
     }
     return _guideLabel;

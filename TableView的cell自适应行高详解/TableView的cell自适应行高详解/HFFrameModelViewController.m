@@ -42,9 +42,6 @@
 }
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
 
-//    return UITableViewAutomaticDimension;
-//    return 300;
-    
     HFFrameModel *model = self.frameModelArr[indexPath.row];
     
     return model.cellHeight;

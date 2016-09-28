@@ -7,31 +7,66 @@
 //
 
 #import "HFTheSingletonViewController.h"
+#import "HFTheSingletonTableViewCell.h"
+#import "HFModel.h"
 
-@interface HFTheSingletonViewController ()
+@interface HFTheSingletonViewController ()<UITableViewDataSource,UITableViewDelegate>
+
+@property (strong, nonatomic) UITableView *tableView;
 
 @end
 
 @implementation HFTheSingletonViewController
 
-- (void)viewDidLoad {
+- (void)viewDidLoad{
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    
+    
+}
+- (void)setupUI{
+    self.tableView.estimatedRowHeight = 200;
+    [self.view addSubview:self.tableView];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    
+    
+    return self.dataArr.count;
+    
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    HFTheSingletonTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cellID" forIndexPath:indexPath];
+    HFModel *model = self.dataArr[indexPath.row];
+    cell.model = model;
+    return cell;
 }
-*/
-
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    static HFTheSingletonTableViewCell *cell;
+    //只初始化一次cell
+    static dispatch_once_t onceToken;
+    dispatch_once(&onceToken, ^{
+        cell = [tableView dequeueReusableCellWithIdentifier:@"cellID"];
+    });
+    HFModel *model = self.dataArr[(NSUInteger) indexPath.row];
+    cell.model = model;
+    
+    if (model.SingletonTableViewCellheight <= 0) {
+        //使用systemLayoutSizeFittingSize获取高度
+        model.SingletonTableViewCellheight = [cell.contentView systemLayoutSizeFittingSize:UILayoutFittingCompressedSize].height + 1;
+    }
+    return model.heightOfCell;
+}
+- (UITableView *)tableView{
+    if (!_tableView) {
+        _tableView = [[UITableView alloc]initWithFrame:CGRectMake(0, 0, kScreenWidth, kScreenHeight) style:UITableViewStylePlain];
+        _tableView.delegate = self;
+        _tableView.dataSource = self;
+        [_tableView registerClass:[HFTheSingletonTableViewCell class] forCellReuseIdentifier:@"cellID"];
+    }
+    
+    return _tableView;
+}
 @end
+

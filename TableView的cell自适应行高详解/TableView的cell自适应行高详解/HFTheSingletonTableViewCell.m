@@ -1,15 +1,15 @@
 //
-//  HFMasnoryTableViewCell.m
+//  HFTheSingletonTableViewCell.m
 //  TableView的cell自适应行高详解
 //
 //  Created by 黄来峰 on 16/9/28.
 //  Copyright © 2016年 dahuangfeng. All rights reserved.
 //
 
-#import "HFMasnoryTableViewCell.h"
+#import "HFTheSingletonTableViewCell.h"
 #import "HFModel.h"
 
-@interface HFMasnoryTableViewCell ()
+@interface HFTheSingletonTableViewCell ()
 
 
 @property (strong, nonatomic) UILabel  *titleLabel;
@@ -21,10 +21,10 @@
 @end
 
 
-@implementation HFMasnoryTableViewCell
+@implementation HFTheSingletonTableViewCell
 
 - (instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier{
-
+    
     if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
         
         [self setupUI];
@@ -40,10 +40,10 @@
     [self.contentView addSubview:self.guideLabel];
     [self.contentView addSubview:self.timeLabel];
     
-    [self layoutIfNeeded];
-
-
-
+//    [self layoutIfNeeded];
+    
+    
+    
 }
 - (void)layoutSubviews{
     [super layoutSubviews];

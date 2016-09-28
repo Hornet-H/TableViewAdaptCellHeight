@@ -34,6 +34,7 @@
 		879233DA1D9BCC0B00A1BFEB /* HFSetModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 879233D91D9BCC0B00A1BFEB /* HFSetModel.m */; };
 		879233DD1D9BF1EF00A1BFEB /* HFAutoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 879233DC1D9BF1EF00A1BFEB /* HFAutoTableViewCell.m */; };
 		879233E31D9BF55800A1BFEB /* HFMasnoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 879233E21D9BF55800A1BFEB /* HFMasnoryTableViewCell.m */; };
+		879233E61D9C005E00A1BFEB /* HFTheSingletonTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 879233E51D9C005E00A1BFEB /* HFTheSingletonTableViewCell.m */; };
 		EDDACECF2F6A97DC8C5F3E43 /* libPods-TableView的cell自适应行高详解Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C9A41B0AB0EE5BFB49D26B0 /* libPods-TableView的cell自适应行高详解Tests.a */; };
 /* End PBXBuildFile section */
 
@@ -110,6 +111,8 @@
 		879233DC1D9BF1EF00A1BFEB /* HFAutoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFAutoTableViewCell.m; sourceTree = "<group>"; };
 		879233E11D9BF55800A1BFEB /* HFMasnoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFMasnoryTableViewCell.h; sourceTree = "<group>"; };
 		879233E21D9BF55800A1BFEB /* HFMasnoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFMasnoryTableViewCell.m; sourceTree = "<group>"; };
+		879233E41D9C005E00A1BFEB /* HFTheSingletonTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HFTheSingletonTableViewCell.h; sourceTree = "<group>"; };
+		879233E51D9C005E00A1BFEB /* HFTheSingletonTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HFTheSingletonTableViewCell.m; sourceTree = "<group>"; };
 		8C9A41B0AB0EE5BFB49D26B0 /* libPods-TableView的cell自适应行高详解Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TableView的cell自适应行高详解Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC476DC24292E99D4E87BBAE /* Pods-TableView的cell自适应行高详解.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableView的cell自适应行高详解.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TableView的cell自适应行高详解/Pods-TableView的cell自适应行高详解.debug.xcconfig"; sourceTree = "<group>"; };
 		B555D92E3C7B91274FF41E9D /* Pods-TableView的cell自适应行高详解UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableView的cell自适应行高详解UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TableView的cell自适应行高详解UITests/Pods-TableView的cell自适应行高详解UITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -291,6 +294,8 @@
 				879233DC1D9BF1EF00A1BFEB /* HFAutoTableViewCell.m */,
 				879233E11D9BF55800A1BFEB /* HFMasnoryTableViewCell.h */,
 				879233E21D9BF55800A1BFEB /* HFMasnoryTableViewCell.m */,
+				879233E41D9C005E00A1BFEB /* HFTheSingletonTableViewCell.h */,
+				879233E51D9C005E00A1BFEB /* HFTheSingletonTableViewCell.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -657,6 +662,7 @@
 				878264091D990BFA00A6A70B /* ViewController.m in Sources */,
 				878264661D9A25FB00A6A70B /* HFModel.m in Sources */,
 				8782645D1D9A235C00A6A70B /* HFTheSingletonViewController.m in Sources */,
+				879233E61D9C005E00A1BFEB /* HFTheSingletonTableViewCell.m in Sources */,
 				878264451D991D9000A6A70B /* HFBaseViewController.m in Sources */,
 				8782645A1D9A233000A6A70B /* HFMasnoryViewController.m in Sources */,
 				878264061D990BFA00A6A70B /* AppDelegate.m in Sources */,

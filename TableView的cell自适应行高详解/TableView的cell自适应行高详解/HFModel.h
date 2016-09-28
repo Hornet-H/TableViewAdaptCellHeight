@@ -18,9 +18,13 @@
 
 /** 在setModel里面获取*/
 @property (assign, nonatomic) CGFloat cellHeight;
-
-
 /** 行高在model里面计算得出的结果*/
 @property (assign, nonatomic,readonly) CGFloat heightOfCell;
+
+
+/** 采用单利的方式获取*/
+@property (assign, nonatomic) CGFloat SingletonTableViewCellheight;
+
+
 
 @end

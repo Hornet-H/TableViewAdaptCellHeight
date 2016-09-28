@@ -324,7 +324,7 @@
         <!--使用单例的方式-->
         <scene sceneID="h3O-6D-QeH">
             <objects>
-                <viewController id="Oyp-rk-vCa" sceneMemberID="viewController">
+                <viewController id="Oyp-rk-vCa" customClass="HFTheSingletonViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Gjo-Bw-JDy"/>
                         <viewControllerLayoutGuide type="bottom" id="XIk-05-NZ0"/>
